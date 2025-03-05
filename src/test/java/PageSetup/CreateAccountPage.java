@@ -12,6 +12,7 @@ public class CreateAccountPage {
 	 
 	    @FindBy(xpath = "//input[@tabindex=1]")
 	    WebElement firstlastNameField;
+		// Charu
 	    
 	    @FindBy(xpath ="//input[@tabindex=2]")
 	    WebElement CompanyName;
