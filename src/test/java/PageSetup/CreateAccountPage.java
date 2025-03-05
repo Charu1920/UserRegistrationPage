@@ -12,6 +12,7 @@ public class CreateAccountPage {
 	 
 	    @FindBy(xpath = "//input[@tabindex=1]")
 	    WebElement firstlastNameField;
+		
 	    
 	    @FindBy(xpath ="//input[@tabindex=2]")
 	    WebElement CompanyName;
@@ -61,6 +62,8 @@ public class CreateAccountPage {
 	    public void signUpbtn() {
 	    	signUp.click();
 	    }
+		
+		//this is the best code for me 
 	 
 	    
 }
